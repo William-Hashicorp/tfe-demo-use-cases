@@ -7,7 +7,7 @@
 
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
-  default     = "william-terraform-oss-s3-remote-state"
+  default     = "TFEdemo-terraform-oss-s3-remote-state"
 }
 
 variable "region" {

@@ -59,7 +59,8 @@ resource "aws_instance" "demo-ec2-instance-with-key" {
   tags = {
     Name = "${var.prefix}-demo-ec2-instance-with-key"
     TTL = 168
-    Owner = "william.yang@hashicorp.com"
+    # put in your own email address
+    Owner = "abc@contoso.com"
     Purpose = "demo for terraform features"
     Department = "devops"
     # Billable = "true"
